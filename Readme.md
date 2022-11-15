@@ -1,18 +1,36 @@
 # 3DViewer
+1. [In English](#demonstration)
+2. [На русском](#демонстрация)
+### Demonstration
+Click to open the YouTube video.
 
-Implementation of 3DViewer desktop program.
+[![demonstration](https://img.youtube.com/vi/zrnWGl7GL68/0.jpg)](https://youtu.be/zrnWGl7GL68)
 
-- The program provide the ability to:
-    - Load a wireframe model from an obj file (vertices and surfaces list support only).
-    - Translate the model by a given distance in relation to the X, Y, Z axes.
-    - Rotate the model by a given angle in relation to its X, Y, Z axes.
-    - Scale the model by a given value.
-- GUI implementation is based on QT library.
-- The graphical user interface contains:
-    - A button to select the model file and a field to output its name.
-    - A visualisation area for the wireframe model.
-    - Button/buttons and input fields for translating the model.
-    - Button/buttons and input fields for rotating the model.
-    - Button/buttons and input fields for scaling the model.
-    - Information about the uploaded model - file name, number of vertices and edges.
-- The program is implemented using the MVC pattern.
+### Description
+Implementation of a program for viewing 3d files. The program is developed in C++ language of C++17 standard and QT Creator. Color change, object rotation, zoom in/out, central and parallel projections are implemented. Interaction with the object is implemented using affine transformations.
+
+### Install
+The program is designed to be installed on macOS using the make and qmake utilities.
+```
+git clone git@github.com:abceff/3DViewer.git
+cd src
+make install
+```
+You can also download the executable file from Releases.
+***
+### Демонстрация
+Нажмите, чтобы открыть видео на YouTube.
+
+[![demonstration](https://img.youtube.com/vi/zrnWGl7GL68/0.jpg)](https://youtu.be/zrnWGl7GL68)
+
+### Описание
+Реализация программы для просмотра 3d файлов. Программа разработана на языке C++ стандарта C++17 и QT Creator. Реализованы изменение цвета, поворот объекта, увеличение / уменьшение масштаба, центральная и параллельная проекции. Взаимодействие с объектом реализуется с помощью аффинных преобразований.
+
+### Установка
+Программа предназначена для установки на macOS с помощью утилит make и qmake.
+```
+git clone git@github.com:abceff/3DViewer.git
+cd src
+make install
+```
+Вы также можете загрузить исполняемый файл из Releases.
